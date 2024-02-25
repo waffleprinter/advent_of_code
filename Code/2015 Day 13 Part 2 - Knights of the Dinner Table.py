@@ -41,4 +41,3 @@ people.add("Me")
 sitting_arrangements = permutations(people)
 
 print(max(calculate_happiness_score(sitting_arrangement) for sitting_arrangement in sitting_arrangements))
-
